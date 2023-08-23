@@ -11,7 +11,7 @@ class CarManager(Turtle):
         self.shapesize(stretch_len=2, stretch_wid=1)
         self.color("red")
         self.penup()
-        self.goto(260, 0)
+        self.goto(300, 0)
         self.move_left()
 
     def move_left(self):
