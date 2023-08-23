@@ -24,3 +24,6 @@ class CarManager():
     def move_left(self):
         for car in self.all_cars:
             car.backward(STARTING_MOVE_DISTANCE)
+
+    def level_up(self):
+        pass
