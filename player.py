@@ -10,7 +10,10 @@ class Player(Turtle):
         self.shape("turtle")
         self.setheading(90)
         self.penup()
-        self.goto(0, -260)
+        self.to_start()
 
     def move(self):
         self.forward(20)
+
+    def to_start(self):
+        self.goto(0, -260)
